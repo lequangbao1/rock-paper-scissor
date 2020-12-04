@@ -1,6 +1,20 @@
-let person = { name: 'Duoc', age: 24 }
-function say(text1, text2) {
-  console.log(text1 + ' ' + text2 + ' ' + this.name + ' ' + this.age)
+const game = () => {
+  let pScore = 0;
+  let cScore = 0;
+
+  const startGame = () => {
+    const playBtn = document.querySelector(".intro button");
+    const introScreen = document.querySelector(".intro");
+    const matchScreen = document.querySelector(".match");
+
+    playBtn.addEventListener("click", () => {
+      introScreen.classList.add("fadeOut");
+    });
+  };
+
+  console.log('game')
+  //Call all inner function
+  startGame();
 }
 
-say('Xin', 'Chao');
+game();

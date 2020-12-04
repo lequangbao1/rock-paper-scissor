@@ -35,7 +35,6 @@ section {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  opacity: 0;
 }
 
 .intro h1 {
@@ -81,7 +80,7 @@ section {
   transform: rotateY(180deg);
 }
 
-div.faceOut {
+div.fadeOut {
   opacity: 0;
   pointer-events: none;
 }
