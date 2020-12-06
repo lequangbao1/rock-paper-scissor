@@ -151,3 +151,30 @@ div.fadeIn {
     transform: rotateY(0deg) translateY(0px);
   }
 }
+
+@media (max-width: 1000px) {
+  .options {
+    flex-direction: column;
+  }
+  .options button {
+    margin-bottom: 20px;
+  }
+  .winner {
+    font-size: 30px;
+  }
+
+  .hands img {
+    height: 200px;
+  }
+
+  .score h2 {
+    font-size: 20px;
+  }
+  .score p {
+    font-size: 15px;
+  }
+  .intro h1 {
+    text-align: center;
+    font-size: 35px;
+  }
+}
