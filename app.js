@@ -40,6 +40,9 @@ const game = () => {
         playerHand.src = `assets/rock.png`;
         computerHand.src = `assets/rock.png`;
 
+        const winner = document.querySelector(".winner");
+        winner.textContent = "...";
+
         //Computer Choice
 
         const computerNumber = Math.floor(Math.random() * 3);
